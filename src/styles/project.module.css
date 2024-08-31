@@ -1,0 +1,82 @@
+/* styles.css */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  /* background: url('/images/al-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  background: rgb(25, 0, 27);
+  background: linear-gradient(0deg, rgba(25, 0, 27, 1) 11%, rgba(26, 30, 68, 1) 100%);
+}
+.main::after {
+  content: '';
+  background-color: black;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0.7;
+}
+.videoBackground {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* min-width: 100%;
+    min-height: 100%; */
+  width: auto;
+  height: auto;
+  z-index: -2; /* Make sure the video is behind other content */
+  transform: translate(-50%, -50%);
+}
+
+.spotlight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #61dafb; */
+}
+
+.alBtnC {
+  padding: 15px 40px;
+  background: transparent;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 1.5px solid white;
+  transition: all 0.2s ease-in;
+}
+.alBtnC:hover {
+  transition: all 0.2s ease-in;
+  background: rgb(141, 255, 202);
+  color: rgb(39, 123, 84);
+  border: 1.5px solid rgb(35, 140, 91);
+}
+.alBtnD {
+  padding: 15px 40px;
+  background: transparent;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 1.5px solid white;
+  transition: all 0.2s ease-in;
+}
+.alBtnD:hover {
+  transition: all 0.2s ease-in;
+  background: rgb(255, 160, 160);
+  color: rgb(143, 34, 34);
+  border: 1.5px solid rgb(134, 32, 32);
+}

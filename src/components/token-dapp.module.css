@@ -1,0 +1,62 @@
+.card {
+  border-radius: 20px;
+
+  /* border: 1px solid white; */
+  padding: 25px;
+  /* background: linear-gradient(68deg, rgb(98, 25, 120) 11%, rgb(69, 21, 118) 53%, rgb(23, 29, 97) 100%); */
+  margin-bottom: 20px;
+  background: rgba(26, 30, 68, 1);
+  -webkit-box-shadow: 1px 4px 10px 1px rgba(15, 15, 15, 0.64);
+  -moz-box-shadow: 1px 4px 10px 1px rgba(15, 15, 15, 0.64);
+  box-shadow: 1px 4px 10px 1px rgba(15, 15, 15, 0.64);
+
+}
+.top {
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 200px;
+  margin-bottom: 15px;
+}
+.network {
+  font-size: 20px;
+  margin-bottom: 13px;
+}
+
+.details {
+  text-align: left;
+}
+
+.details p {
+  margin-bottom: 8px;
+  font-style: normal;
+}
+.card form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.card form div {
+  width: 75%;
+}
+.card form input {
+  width: 100%;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 18px;
+  color: white;
+  border: 1px solid white;
+}
+.card form button {
+  width: 24%;
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: none;
+  background: white;
+  color: #2d2d2d;
+  cursor: pointer;
+}

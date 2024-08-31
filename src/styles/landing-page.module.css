@@ -1,0 +1,62 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background: url('/images/al-bg.jpg');
+  /*background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  /* background: rgb(37, 1, 41); */
+  background: linear-gradient(0deg, rgba(37, 1, 41, 1) 11%, rgba(19, 24, 73, 1) 100%);
+}
+
+.videoBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.wrapper {
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.spotlight {
+  margin-top: 100px;
+  padding: 100px;
+  text-align: left;
+}
+
+.title {
+  font-size: 50px;
+  color: #fff;
+  width: 80%;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 15px 25px;
+  color: #fff;
+  background-color: #2267b5;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.marketSection {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Add additional styles as needed */

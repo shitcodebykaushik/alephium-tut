@@ -1,0 +1,23 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .footer h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #f0a500;
+  }
+  
+  .footer p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
